@@ -7,12 +7,11 @@ import java.util.UUID;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
-        import android.bluetooth.BluetoothSocket;
+import android.bluetooth.BluetoothSocket;
 
-        import android.util.Log;
+import android.util.Log;
 
-        public class BT_comm {
-
+    public class BT_comm {
             //Target NXTs for communication
             final String nxt = "00:16:53:48:80:82";
 
