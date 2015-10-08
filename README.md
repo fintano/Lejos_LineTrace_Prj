@@ -31,4 +31,4 @@ How to operating this project
     lejos : EV3 Java appliacation connecting App and detecting line, color, distance to use sensor
           Tool : Eclipse 
           
-You watch it @ 
+You watch it @ https://www.youtube.com/watch?v=pZzCOxEugxQ&feature=youtu.be
