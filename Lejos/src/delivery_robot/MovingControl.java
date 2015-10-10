@@ -80,7 +80,7 @@ public class MovingControl {
 
 			}
 			if (!isPause) {
-				// 30ÃÊ ÀÌ³» µµÂø °Ë»ç
+				// 30ì´ˆ ì´ë‚´ ë„ì°© ê²€ì‚¬
 				// if ((int) java.lang.System.currentTimeMillis() -
 				// start_tick >
 				// 20 * 1000) {
@@ -88,7 +88,7 @@ public class MovingControl {
 				// (int)java.lang.System.currentTimeMillis() - start_tick);
 				// return;
 				// }
-				// Ãæµ¹ È½¼ö °Ë»ç
+				// ì¶©ëŒ íšŸìˆ˜ ê²€ì‚¬
 				if (TouchSensor_Interface.getCount() >= 15) {
 					System.out.printf("Touch Count %d\n",
 							TouchSensor_Interface.getCount());
@@ -99,7 +99,7 @@ public class MovingControl {
 				color = controller.getColor();
 				if (colorRotate(color, des)) {
 					Delay.msDelay(5 * 1000);
-					System.out.println("Running Time " + (end_tick-start_tick/*-pause_start_tick+pause_end_tick*/)/1000);
+					System.out.println("Running Time " + (end_tick-start_tick)/1000);
 					return;
 				}
 				// }
